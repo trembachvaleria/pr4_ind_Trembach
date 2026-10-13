@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Дневник погоды</string>
+    <string name="data">Дата (например 07.10.2026)</string>
+    <string name="temp">Температура (°C)</string>
+    <string name="pogoda">Погода (солнечно, дождь...)</string>
+    <string name="vvod">Введите ваше имя</string>
+    <string name="soxr">Сохранить</string>
+    <string name="zapis">Записи о погоде:</string>
+    <string name="naz">Назад</string>
+    <string name="dnevn">Дневник погоды</string>
+    <string name="pok">Показать все записи</string>
+    <string name="voiti">Войти</string>
+</resources>

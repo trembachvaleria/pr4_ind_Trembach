@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/darkblue">
+
+    <TextView
+        android:id="@+id/textHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выбрать дату"
+        android:background="@drawable/button"/>
+
+    <EditText
+        android:id="@+id/editTemp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="@string/temp"/>
+
+    <EditText
+        android:id="@+id/editCondition"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/pogoda"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/soxr"
+        android:background="@drawable/button"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGoOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/pok"
+        android:background="@drawable/button"/>
+
+</LinearLayout>
